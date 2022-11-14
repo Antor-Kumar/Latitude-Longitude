@@ -25,9 +25,5 @@ function displayData (data) {
 
     const Longitude = document.getElementById('Longitude')
     Longitude.innerHTML="Lon: "+data.coord.lon;
-    
-    const picture =document.getElementById('weather-icon');
-    const url = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-    picture.setAttribute('src',url)
-
+   
 }
